@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        nav {
+            display: flex;
+            background-image: linear-gradient(pink, skyblue);
+            justify-content: space-between;
+        }
+        nav h1 {
+            padding-top: 10px;
+            padding-left: 30px;
+            font-size: 30px;
+        }
+        .nav {
+            display: flex;
+            width: 400px;
+        }
+        .inside {
+            display: flex;
+            align-items: center;
+        }
+        h3 {
+            padding: 20px;
+        }
+        h3:hover {
+            background-image: linear-gradient(green, yellow);
+        }
+        a {
+            color: coral;
+        }
+        .home {
+            background-image: linear-gradient(pink, skyblue);
+        }
+        .container {
+            display: flex;
+            height: 90vh;
+        }
+        .card {
+            margin: auto;
+            height: 350px;
+            width: 250px;
+            border: 1px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: 0 0 10px;
+        }
+        img {
+            height: 100px;
+            width: 80px;
+            margin-top: 20px;
+        }
+        .card h1 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1><a href="./navcard.html">movie app</a></h1>
+        <div class="nav">
+            <h3 class="home"><a href="#">HOME</a></h3>
+            <h3 class="content"><a href="#">CONTENT</a></h3>
+            <h3 class="about"><a href="#">ABOUT</a></h3>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <h1>Biodata</h1>
+                <img src="bg.jpg" alt="snowdrop">
+                <ul>
+                    <li>Nama : Salwa Amalia Haidina</li>
+                    <li>Kelas : XI RPL 3</li>
+                    <li>TTD : 5 Ferbuary 2005</li>
+                </ul>
+        </div>
+    </div>
+</body>
+</html>
