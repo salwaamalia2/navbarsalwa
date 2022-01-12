@@ -23,11 +23,7 @@
         }
         .nav {
             display: flex;
-            width: 400px;
-        }
-        .inside {
-            display: flex;
-            align-items: center;
+            width: 500px;
         }
         h3 {
             padding: 20px;
@@ -39,7 +35,7 @@
             color: coral;
         }
         .home {
-            background-image: linear-gradient(pink, skyblue);
+            background-image: linear-gradient(violet, skyblue);
         }
         .container {
             display: flex;
@@ -57,12 +53,33 @@
             box-shadow: 0 0 10px;
         }
         img {
-            height: 100px;
+            height: 80px;
             width: 80px;
             margin-top: 20px;
+            margin-bottom: 30px;
         }
-        .card h1 {
-            margin-bottom: 20px;
+        .banner {
+            display: flex;
+            height: 100vh;
+            background-image: url(doraemon.jpg);
+            background-size: cover;
+        }
+        .wc {
+            color: black;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid;
+            border-radius: 30px;
+            background-color:rgba(78, 184, 184, 0.432);
+        }
+        /*about*/
+        .about {
+            padding: 10px;
+            color: brown;
+            background-color: violet;
+        }
+        p {
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -71,14 +88,24 @@
         <h1><a href="./navcard.html">movie app</a></h1>
         <div class="nav">
             <h3 class="home"><a href="#">HOME</a></h3>
-            <h3 class="content"><a href="#">CONTENT</a></h3>
-            <h3 class="about"><a href="#">ABOUT</a></h3>
+            <h3 class="btw"><a href="#">BEST OF THE WEEK</a></h3>
+            <h3 class="contact"><a href="#">CONTACT</a></h3>
         </div>
     </nav>
+    <div class="banner">
+        <h1 class="wc">WELCOME FRIENDS!?</h1>
+    </div>
+    <div class="about">
+        <h1 class="aj">ABOUT</h1>
+        <p>
+            <b>Movie App</b> adalah sebuah halaman website yang mereview vidio-vidio. 
+            paling populer baik dari film untuk anak dibawah umur maupun dewasa
+        </p>
+    </div>
     <div class="container">
         <div class="card">
             <h1>Biodata</h1>
-                <img src="bg.jpg" alt="snowdrop">
+                <img src="bg.png" alt="doraemon">
                 <ul>
                     <li>Nama : Salwa Amalia Haidina</li>
                     <li>Kelas : XI RPL 3</li>
