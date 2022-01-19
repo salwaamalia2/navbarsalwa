@@ -53,8 +53,11 @@ a {
 .banner i {
     margin-left: 120px;
 }
-.barbi {
+.barbie {
     background-image: url(./poster/barbi.jpg);
+}
+.bb {
+    background-image: url(./poster/bb.jpg);
 }
 
 /*deskripsi*/
@@ -68,8 +71,7 @@ a {
 }
 .iframe {
     margin-top: 20px;
-    width: 100%;
-    height: 85vh;
+    
 }
 
 /*film lain*/
